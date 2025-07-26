@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPG Cave Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>RPG Cave Adventure</h1>
+    <div class="stats">
+      <p id="xptext">XP: 0</p>
+      <p id="healthtext">Health: 100</p>
+      <p id="goldtext">Gold: 50</p>
+    </div>
+    <div class="buttons">
+      <button id="button1">Go to Store</button>
+      <button id="button2">Go to Cave</button>
+      <button id="button3">Fight Dragon</button>
+    </div>
+    <div id="text">Welcome to the Cave Adventure!</div>
+    <div id="description">Enter a location to see its description.</div>
+    <div id="monsterstats" style="display: none;">
+      <p id="monsternametext"></p>
+      <p id="monsterhealthtext"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
